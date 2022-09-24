@@ -1,0 +1,24 @@
+@media (min-width: 32.5em) {
+
+    #profile {
+        margin: 1em auto;
+        width: 150px;
+    }
+
+    main {
+        margin: -8px 10px;
+        font-size: 20px;
+    }
+
+    header{
+        z-index: 1;
+        grid-template-columns: 40% 60%;
+        border-radius: 1em;
+        justify-items: stretch;
+    }
+
+    li {
+        font-size: 25px;
+    }
+}
+
