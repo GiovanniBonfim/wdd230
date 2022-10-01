@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+header,
+footer {
+	background-color: rgb(204, 243, 230);
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	place-items: center;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	color: #536878;
+	margin-bottom: 1em;
+	font-size: 2em;
+}
+
+#example {
+	font-family: sans-serif;
+	font-size: 2em;
+}
+
+#pexample {
+	font-size: 2em;
+} 
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 780px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+}
+
+nav a:hover {
+	background-color: #708080;
+	color: yellow;
+}
+
+.active {
+	color: yellow;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+}
+main article {
+	margin: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	background-color: #eee;
+
+}
+
+main article ul {
+	margin: 1rem 0 0 1rem;
+}
+main picture {
+	margin: 1rem;
+}
+
+main img {
+	width: 100%;
+ 	max-width: 400px;
+  	height: auto;
+}
+
+footer {
+	grid-template-columns: 1fr;
+}
+
+footer p {
+	font-family: "Sansita", Ubuntu, sans-serif;
+	font-size: 13px;
+}
+
+.box {
+	border: 2px solid black;
+	width: 50px;
+	height: 50px;
+	margin: 1em;
+	grid-column: 1/2;
+	justify-self: center;
+}
+
+#aeroblue {
+	background-color: rgb(204, 243, 230);
+}
+
+#charcoal {
+	background-color: #36454f;
+}
+
+#eletric {
+	background-color: #536878;
+}
+
+#boxes {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 0.5em;
+	align-items: center;
+}
+
+#boxes p {
+	grid-column: 2/3;
+}
+
+#p1 {
+	grid-row: 1/2;
+}
+
+#p2 {
+	grid-row: 2/3;
+}
+
+#p3 {
+	grid-row: 3/4;
+}
